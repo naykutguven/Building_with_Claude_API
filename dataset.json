@@ -1,0 +1,11 @@
+[
+  {
+    "task": "Write a Python function named `list_untagged_ec2_instances(region_name)` that uses boto3 to return a list of instance IDs for all EC2 instances in the given region that do not have a tag with the key 'Owner'. Use a paginator to handle large result sets."
+  },
+  {
+    "task": "Write a JSON IAM policy document that grants read-only access (s3:GetObject and s3:ListBucket) to an S3 bucket named 'my-app-logs' and all objects within it, and explicitly denies all S3 actions on the bucket if the request is not made over HTTPS (aws:SecureTransport is false)."
+  },
+  {
+    "task": "Write a single regular expression that matches a valid AWS S3 ARN for an object in the format 'arn:aws:s3:::bucket-name/key-path', where the bucket name is 3-63 characters long and consists of lowercase letters, numbers, hyphens, and dots, starting and ending with a letter or number, and the key path is one or more characters after the slash."
+  }
+]
